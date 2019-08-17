@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyMovieApp1</string>
+    <string name="title">Title</string>
+    <string name="votes">Votes</string>
+    <string name="popular_movie">Popular Movies</string>
+    <string name="top_rated">Top Rated Movies</string>
+    <string name="release_date">Release Date:</string>
+    <string name="rating">Vote average:</string>
+    <string name="overview">OverView</string>
+    <string name="rate_number">9.7</string>
+    <string name="date">03/02/2019</string>
+    <string name="error">Error</string>
+    <string name="reviews">Reviews</string>
+    <string name="favorite">"Favorite Movies</string>
+    <string name="details">"Movie Details</string>
+    <string name="trailer">"Movie Trailer/s</string>
+    <string name="no_plot">No plot</string>
+    <string name="no_trailer_available">No trailer available</string>
+    <string name="no_reviews_available">No reviews available</string>
+</resources>

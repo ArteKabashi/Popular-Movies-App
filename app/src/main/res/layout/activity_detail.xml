@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar2" />
+
+        <include
+            layout="@layout/image_movie_item"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="@dimen/eight_dp" />
+
+        <include
+            android:id="@+id/include2"
+            layout="@layout/other_movie_details" />
+
+        <include
+            layout="@layout/review_list"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginLeft="@dimen/eight_dp"
+            android:layout_marginTop="@dimen/four_dp"
+            android:layout_marginRight="@dimen/eight_dp" />
+
+        <include
+            layout="@layout/trailer_list"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="@dimen/eight_dp"
+            android:layout_marginTop="@dimen/four_dp"
+            android:layout_marginRight="@dimen/eight_dp" />
+    </LinearLayout>
+</ScrollView>

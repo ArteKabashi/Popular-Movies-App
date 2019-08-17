@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/eight_dp">
+
+    <TextView
+        android:id="@+id/title_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/eight_dp"
+        android:gravity="center_horizontal"
+        android:text="@string/title"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/twenty_six_sp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/eight_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/movie_details" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/overview"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/twenty_sp" />
+
+            <TextView
+                android:id="@+id/plot_movie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/eight_dp"
+                android:layout_marginLeft="@dimen/eight_dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="@dimen/four_dp"
+                android:paddingRight="@dimen/four_dp"
+                android:text="@string/overview"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/sixteen_sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
