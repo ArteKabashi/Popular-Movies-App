@@ -30,3 +30,16 @@
  You have to enter your own API key into gradle.properties file.<br>
  API_KEY = "your-api-key"
  
+ ## Gifs
+ 
+<p float="left">
+<img src ="gifs/gifone.gif"  width=300>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+<img src ="gifs/giftwo.gif" width=300>
+ </p>
+ <br>
+ <br>
+ 
+ <p float="left">
+<img src ="gifs/gifthree.gif"   width=300>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+<img src ="gifs/giffour.gif"  width=300 >
+ </p>
